@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: plentifullee/flask-app:latest  # This will be updated by your GitOps process
+        image: plentiful/flask-app:79444237321adfcf4539b4a9d740c7da8970ffb4
         ports:
         - containerPort: 5000
 ---
