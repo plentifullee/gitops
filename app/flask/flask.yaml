@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: plentiful/flask-app:cefd92983831294cc2d4e82f49f7a2797e351ac6
+        image: plentiful/flask-app:7d80bb1e63b2c2f6102d8167a58ca7a6f89410ee
         ports:
         - containerPort: 5000
 ---
